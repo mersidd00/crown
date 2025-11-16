@@ -102,7 +102,7 @@
         const formData = new FormData(form);
         const data = Object.fromEntries(formData.entries());
 
-        fetch("https://masafoj7.app.n8n.cloud/webhook/order", {
+        fetch("https://hanouti.onrender.com/webhook/order", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
@@ -327,6 +327,7 @@
 
 
     
+
 
 
 
